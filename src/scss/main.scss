@@ -1,0 +1,7 @@
+// This is where you can import other stylesheets or write your scss code
+@use "variables";
+@use "layout";
+@use "reset";
+@use "typography";
+
+@use "../../node_modules/bootstrap/scss/bootstrap";
