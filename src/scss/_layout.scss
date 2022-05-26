@@ -2,7 +2,7 @@
 
 body {
     background: variables.$bg-body;
-    min-height: 100vh;
+    height: 100%;
 }
 
 .navbar {
@@ -20,21 +20,24 @@ body {
     left: 0px;
     top: 60px;
 }
+.container-home img {
+    height: 800px;
+}
 
 .container-focus {
     position: absolute;
-width: 100%;
-height: 948px;
-left: 0px;
-top: 1020px;
+    width: 100%;
+    height: 948px;
+    left: 0px;
+    top: 1020px;
 }
 
 .container-projects-one {
     position: absolute;
-width: 100%;
-height: 600px;
-left: 0px;
-top: 1968px;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 1968px;
 }
 
 .container-projects-two {
