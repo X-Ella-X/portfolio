@@ -9,38 +9,44 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
+    <!-- To Top Button -->
+    <!-- <button class="to-top-btn"><a href="#top"><i class="fa-solid fa-angles-up"></i></a></button> -->
+    
     <!-- Navbar -->
-    <nav>
+    <nav id="top">
       <div class="subnav">
-        <p><a href="http://">Home</a></p>
+        <p><a href="#home">Home</a></p>
       </div>
       <div class="subnav">
-        <p><a href="http://">Focus</a></p>
+        <p><a href="#focus">Focus</a></p>
       </div>
       <div class="subnav">
-        <p class="subnav-menu"><a href="http://">Projects ▾</a></p>
+        <p class="subnav-menu"><a href="#projects">Projects ▾</a></p>
           <ul class="subnav-content">
-            <li><a href="http://">Web Development</a></li>
-            <li><a href="http://">Social Media Management</a></li>
+            <li><a href="projects-webdev.html">Web Development</a></li>
+            <li><a href="projects-smm.html">Social Media Management</a></li>
           </ul>
         </div>
         <div class="subnav">
-          <p><a href="http://">Resume</a></p>
+          <p><a href="#resume">Resume</a></p>
         </div>
         <div class="subnav">
-          <p><a href="http://">Contact</a></p>
+          <p><a href="#contact">Contact</a></p>
         </div>
       </div>
     </nav>
 
+    <!-- H O M E -->
     <div class="container-home">
-      <p><span>Ella</span> <br>Social Media Manager &<br>Trainee in Web Development</p>
+      <p id="home"><span>Ella</span> <br>Social Media Manager &<br>Trainee in Web Development</p>
 
       <img src="images/woman.jpg" alt="woman with sun glasses">
     </div>
 
+<!-- F O C U S -->
+
     <div class="container-focus">
-      <h1>Focus</h1>
+      <h1 id="focus">Focus</h1>
       <div class="container-focus-innovation">
         <h2>Innovation</h2>
         <p>Nach wie vor stellen Innovationen und innovatives Denken den Fortschritt der Menschheit dar. Sich einem Problem zu stellen und die Herausforderung anzunehmen, eine Lösung dafür zu finden, sind meine Leidenschaft. Einen Bedarf von heute zu erkennen und dafür ein Angebot für morgen zu kreieren, da bin ich dabei. Ich habe keine Angst davor, etwas zu verändern oder etwas Neues zu entwickeln.</p>
@@ -62,10 +68,12 @@
       </div>
     </div>
 
-    <div class="container-projects-one">
+<!-- P R O J E C T S -->
+
+    <div class="container-projects-one" id="projects">
       <img src="images/webdev3.png" alt="computer website">
       <div class="subcontainer-webdev">
-        <h2>Web Development</h2>
+        <h2 id="webdev">Web Development</h2>
         <ul>
           <li>HTML</li>
           <li>CSS (Flexbox, Grid, Animation)</li>
@@ -74,15 +82,15 @@
           <li>Github</li>
           <li>JSON</li>
         </ul>
-        <div class="div-button">
-          <button type="button">Show Projects</button>
-      </div>
+        <!-- <div class="div-button">
+          <button type="button"><a href="projects-webdev.html">Show Projects</a></button>
+      </div> -->
       </div>
     </div>
 
     <div class="container-projects-two">
       <div class="subcontainer-smm">
-        <h2>Social Media Management</h2>
+        <h2 id="smm">Social Media Management</h2>
         <ul>
           <li>YouTube</li>
           <li>Instagram</li>
@@ -90,30 +98,37 @@
           <li>Podcasts</li>
           <li>Community Management</li>
         </ul>
-        <div class="div-botton">
-          <button type="button">Show Projects</button>
-      </div>
+        <!-- <div class="div-botton">
+          <button type="button"><a href="projects-smm.html">Show Projects</a></button>
+      </div> -->
       </div>
       <img src="images/insta.png" alt="instagram logo">
     </div>
 
+<!-- R E S U M E -->
+
     <div class="container-resume">
-      <div class="container-resume-left">
-        <p>Interests:<br> Education, Coaching, Video Games, Travel, Food, Culture</p>
-        <p>Education:<br> M.A. Education Science (2017)<br>Certified Social Media Manager (2022)<br>Trainee in Web Development (2022-2023)</p>
-        <p>Location:<br>Berlin, Germany</p>
-      </div>
-      <div class="resume-download">
-        <a href="http://"></a>
-      </div>
-      <div class="social-media-links">
-        <a href="https://www.instagram.com/design_things_by_ella/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.linkedin.de/in/elvira-felsinger"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/X-Ella-X"><i class="fa-brands fa-github"></i></a>
+      <h1 id="resume">Resume</h1>
+      <div class="container-resume-info">
+        <div class="container-resume-left">
+          <p>Interests:<br> Education, Coaching, Video Games, Travel, Food, Culture</p>
+          <p>Education:<br> M.A. Education Science (2017)<br>Certified Social Media Manager (2022)<br>Trainee in Web Development (2022-2023)</p>
+          <p>Location:<br>Berlin, Germany</p>
+        </div>
+        <div class="resume-download">
+          <a href="http://"></a>
+        </div>
+        <div class="social-media-links">
+          <a href="https://www.instagram.com/design_things_by_ella/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.de/in/elvira-felsinger"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/X-Ella-X"><i class="fa-brands fa-github"></i></a>
+        </div>
       </div>
     </div>
 
-    <div class="container-contact">
+<!-- C O N T A C T  F O R M -->
+
+    <div class="container-contact" id="contact">
       <form action="https://formspree.io/f/mnqwojqk" method="contact">
         <fieldset class="container-contact-form">
             <legend>Contact me</legend>
@@ -142,6 +157,8 @@
           </div>
         </fieldset>
     </div>
+
+<!-- F O O T E R -->
 
     <div class="container-footer">
     &copy Elvira Felsinger, 2022
