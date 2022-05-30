@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/25f954a303.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/main.css" />
   </head>
@@ -98,7 +99,7 @@
 
     <div class="container-resume">
       <div class="container-resume-left">
-        <p>Interests:<br> Education, Coaching, , Gaming, Travel, Food, Culture</p>
+        <p>Interests:<br> Education, Coaching, Video Games, Travel, Food, Culture</p>
         <p>Education:<br> M.A. Education Science (2017)<br>Certified Social Media Manager (2022)<br>Trainee in Web Development (2022-2023)</p>
         <p>Location:<br>Berlin, Germany</p>
       </div>
@@ -106,12 +107,40 @@
         <a href="http://"></a>
       </div>
       <div class="social-media-links">
-        <a href="http://"></a><a href="http://"></a><a href="http://"></a>
+        <a href="https://www.instagram.com/design_things_by_ella/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.de/in/elvira-felsinger"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/X-Ella-X"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
 
     <div class="container-contact">
-
+      <form action="https://formspree.io/f/mnqwojqk" method="contact">
+        <fieldset class="container-contact-form">
+            <legend>Contact me</legend>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="company">Company: </label>
+                <input type="text" id="company" name="company" placeholder="Your company name (optional)">
+            </div>
+            <div>
+                <label for="email">E-Mail: </label>
+                <input type="text" id="email" name="email" required placeholder="Your email adress">
+            </div>
+            <div>
+              <label for="subject">Subject: </label>
+              <input type="text" id="subject" name="subject" placeholder="Subject">
+          </div>
+            <div>
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type a message and hit send."></textarea>
+            </div>
+            <div class="div-botton">
+              <button type="submit">Send</button>
+          </div>
+        </fieldset>
     </div>
 
     <div class="container-footer">
