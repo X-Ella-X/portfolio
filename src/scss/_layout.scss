@@ -41,7 +41,7 @@ nav {
     }
 }
 
-// First Container
+// First Container - H O M E
 .container-home {
     background: #FFFFFF;
     position: absolute;
@@ -64,7 +64,7 @@ nav {
     }
 }
 
-// Second Container
+// Second Container - F O C U S
 .container-focus {
     background: rgb(255, 255, 255, .5);
     position: absolute;
@@ -80,7 +80,7 @@ nav {
     }
 }
 
-// Third Container
+// Third Container - P R O J E C T S  1
 .container-projects-one {
     background: rgb(255, 255, 255, .5);
     position: absolute;
@@ -106,9 +106,17 @@ nav {
         list-style:none;
         // text-decoration: underline;
     }
+
+    [type="button"] {
+        background-color: #797F93;
+        color: #45495B;
+        padding: 7px 25px;
+        font-size: 1.2rem;
+        border-radius: 7px;
+    }
 }
 
-// Forth Container
+// Forth Container - P R O J E C T S  2
 .container-projects-two {
     background: rgb(255, 255, 255, .5);
     position: absolute;
@@ -136,7 +144,7 @@ nav {
     }
 }
 
-// Sixth Container
+// Sixth Container - R E S U M E
 .container-resume  {
     position: absolute;
     width: 100%;
@@ -159,7 +167,7 @@ nav {
     }
 }
 
-// Seventh Container
+// Seventh Container - C O N T A C T
 .container-contact {
     position: absolute;
     width: 100%;
@@ -168,7 +176,7 @@ nav {
     top: 3906px;
 }
 
-// Eighth Container
+// Eighth Container - F O O T E R
 .container-footer {
     position: absolute;
     width: 100%;
